@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+
+body {
+  max-width: 33%;
+}
+
+  
+.product-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.customer-rating-star {
+  width: 14px;
+  height: 14px;
+}
+  
