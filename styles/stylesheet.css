@@ -1,16 +1,25 @@
 * {box-sizing: border-box;}
 
+/* Set width of product tile to allow for horizontal floating of tiles, set min-width to control wrapping */
 .product-tile {
   width: 20%;
   min-width: 230px;
-  margin: 3rem;
+  padding: 1rem;
 }
 
+/* Link text is black with no underline */
 a {
   color: black;
   text-decoration: none;
 }
-  
+
+/* All text uses Open Sans font */
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+ 
+/* Center the product photo within the product tile */
 .product-photo img {
   display: block;
   margin-left: auto;
@@ -18,6 +27,7 @@ a {
   margin-bottom: 1rem;
 }
 
+/* Size the customer raiting stars, align them within the product tile */
 .customer-rating img {
   width: 14px;
   height: 14px;
@@ -29,21 +39,19 @@ a {
   padding-bottom: 1rem;
 }
 
+/* Clear float and set font weight on product decription */
 .product-description {
   clear: both;
-  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-.product-price {
-  margin-bottom: 1rem;
-  
-}
-
+/* Create a "button" for the Compare link */
 .product-compare {
   border: 1px solid black;
   padding: .5rem;
   text-align: center;
-  width: 80px;
+  width: 100px;
+  font-weight: 600;
 }
 
 
